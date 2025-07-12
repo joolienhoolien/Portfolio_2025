@@ -1,22 +1,17 @@
 import streamlit as st
 import pandas
+from menu import menu
 
+#TODO: Add area for tech stack
+#TODO: Allow pill buttons to filter list by tech
+#TODO: Make the images smaller
 
 st.set_page_config(page_title="Julien Pecquet Portfolio", layout="centered")
-
+menu()
 #Personal projects, education etc
 col1, col2 = st.columns([1,2],vertical_alignment="top")
-
 with col1:
     st.image(width=300, image="images/photo.png")
-    with st.container():
-        social_col1, social_col2, social_col3 = st.columns(3, gap=None)
-        with social_col1:
-            st.link_button("Github", "https://github.com/joolienhoolien")
-        with social_col2:
-            st.link_button("Linkedin", "https://www.linkedin.com/in/julien-pecquet/")
-        with social_col3:
-            st.page_link(page="pages/contact_me.py", label="Email")
 
 with col2:
     st.title("Julien Pecquet")
@@ -40,12 +35,9 @@ with expand_professional:
         if row["context"] == "professional":
             st.header(row["title"])
 
-#TODO: Add area for tech stack
-#TODO: Allow pill buttons to filter list by tech
-#TODO: Make the images smaller
 expand_projects = st.expander("Personal Projects", icon=":material/info:")
 with expand_projects:
-    expand_projects.write("Inside the expander.")
+    #expand_projects.write("Inside the expander.")
     df = pandas.read_csv("data.csv", sep=';')
     left_col, right_col = st.columns(2)
     for index, row in df.iterrows():
