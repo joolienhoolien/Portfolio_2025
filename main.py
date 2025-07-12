@@ -18,8 +18,10 @@ with col2:
     Eager to apply a strong foundation in object-oriented programming to build high-quality applications.
     """
     st.info(content)
-    st.link_button("Github", "https://github.com/joolienhoolien")
-    st.link_button("Linkedin", "https://www.linkedin.com/in/julien-pecquet/")
+    with st.container():
+        st.markdown("**Socials**")
+        st.link_button("Github", "https://github.com/joolienhoolien")
+        st.link_button("Linkedin", "https://www.linkedin.com/in/julien-pecquet/")
 
 st.markdown("## What would you like to know about me?")
 
