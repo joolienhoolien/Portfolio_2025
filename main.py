@@ -1,12 +1,18 @@
 import streamlit as st
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Julien Pecquet Portfolio", layout="centered")
 
 #Personal projects, education etc
-col1, col2 = st.columns(2)
+col1, col2 = st.columns([1,2],vertical_alignment="top")
 
 with col1:
-    st.image("images/photo.png")
+    st.image(width=300, image="images/photo.png")
+    with st.container():
+        social_col1, social_col2 = st.columns(2, gap=None)
+        with social_col1:
+            st.link_button("Github", "https://github.com/joolienhoolien")
+        with social_col2:
+            st.link_button("Linkedin", "https://www.linkedin.com/in/julien-pecquet/")
 
 with col2:
     st.title("Julien Pecquet")
@@ -18,19 +24,16 @@ with col2:
     Eager to apply a strong foundation in object-oriented programming to build high-quality applications.
     """
     st.info(content)
-    with st.container():
-        st.markdown("**Socials**")
-        st.link_button("Github", "https://github.com/joolienhoolien")
-        st.link_button("Linkedin", "https://www.linkedin.com/in/julien-pecquet/")
 
+st.divider()
 st.markdown("## What would you like to know about me?")
 
 expand_professional = st.expander("Professional Experience", icon=":material/info:")
-long_text = "Lorem ipsum. " * 1000
 with expand_professional:
+    expand_professional.write("Inside the expander.")
     with st.container(height=300):
+        long_text = "Lorem ipsum. " * 1000
         st.markdown(long_text)
-        expand_professional.write("Inside the expander.")
 
 expand_projects = st.expander("Personal Projects", icon=":material/info:")
 expand_projects.write("Inside the expander.")
