@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas
+
 
 st.set_page_config(page_title="Julien Pecquet Portfolio", layout="centered")
 
@@ -32,11 +34,34 @@ expand_professional = st.expander("Professional Experience", icon=":material/inf
 with expand_professional:
     expand_professional.write("Inside the expander.")
     with st.container(height=300):
-        long_text = "Lorem ipsum. " * 1000
-        st.markdown(long_text)
+        #long_text = "Lorem ipsum. " * 1000
+        #st.markdown(long_text)
+        df = pandas.read_csv("data.csv", sep=';')
+        for index, row in df.iterrows():
+            if row["context"] == "professional":
+                st.header(row["title"])
+
+#TODO: Add area for tech stack
+#TODO: Allow pill buttons to filter list by tech
 
 expand_projects = st.expander("Personal Projects", icon=":material/info:")
-expand_projects.write("Inside the expander.")
+with expand_projects:
+    expand_projects.write("Inside the expander.")
+    with st.container(height=300):
+        #long_text = "Lorem ipsum. " * 1000
+        #st.markdown(long_text)
+        df = pandas.read_csv("data.csv", sep=';')
+        for index, row in df.iterrows():
+            if row["context"] == "personal":
+                st.header(row["title"])
 
 expand_education = st.expander("Education & Certificates", icon=":material/info:")
-expand_education.write("Inside the expander.")
+with expand_education:
+    expand_education.write("Inside the expander.")
+    with st.container(height=300):
+        #long_text = "Lorem ipsum. " * 1000
+        #st.markdown(long_text)
+        df = pandas.read_csv("data.csv", sep=';')
+        for index, row in df.iterrows():
+            if row["context"] == "education":
+                st.header(row["title"])
