@@ -1,5 +1,4 @@
 title;description;url;image;context;date
-Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://pythonhow.com;1.png;personal;
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://pythonhow.com;2.png;personal;
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://pythonhow.com;3.png;personal;
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://pythonhow.com;4.png;personal;
@@ -21,6 +20,6 @@ Restaurant Menu Web App;A Django web app to let customers see a restaurant menu 
 Online Store;A Django online store app where users can place orders and sellers can manage them.;https://pythonhow.com;20.png;personal;
 Bachelor of Science: Computer Science;Received from Colorado State University. Minor: Mathematics.;;;education;January 2016 - December 2018.
 Associates of Arts: Psychology;Received from Front Range Community College. ;;;education;June 2011 - December 2013
-Lead Integrations Consultant @ Julien Jade, LLC.;;;;professional;August 2022 - Present
-Data Analyst, Boomi Consultant @ Blue Horseshoe of Accenture;;;;professional;June 2019 - January 2022
-;;;;;
+Lead Integrations Consultant @ Julien Jade, LLC.;Managing Boomi projects including timeline, hours and actionable items. Completing actionable items. Assuming full responsibility and ownership of projects from a Boomi standpoint. ;;;professional_title;August 2022 - Present
+Data Analyst, Boomi Consultant @ Blue Horseshoe of Accenture;;;;professional_title;June 2019 - January 2022
+Cable Bullet;Design, implement, support net new processes for synchronizing sales orders, item fulfillments, invoices, items and inventory between Shopify and Netsuite. Provide documentation and instruction for clients and partners.;;;professional_project;January 2023 - Present

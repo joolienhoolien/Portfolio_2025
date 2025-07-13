@@ -1,6 +1,5 @@
 import smtplib
 import ssl
-import os
 import streamlit as st
 
 
