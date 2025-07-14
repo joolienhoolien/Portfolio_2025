@@ -30,13 +30,16 @@ def professional_tab():
 def personal_tab():
     df = pandas.read_csv("pers_proj.csv", sep=';')
     col1, col2 = st.columns(2)
+    count = 0
     for index, row in df.iterrows():
-        if index % 2 == 0:
+        if count % 2 == 0 and row["complete"] == True:
             with col1:
                 project_block(row)
-        elif index % 2 == 1:
+                count += 1
+        elif count % 2 == 1 and row["complete"] == True:
             with col2:
                 project_block(row)
+                count += 1
 
 def education_tab():
     df = pandas.read_csv("educ.csv")
