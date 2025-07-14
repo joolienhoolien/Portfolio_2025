@@ -1,7 +1,21 @@
 company,title,role,description,url,image,company_code
-Cable Bullet,,Integrations Lead,"Design, implement, support net new processes for synchronizing sales orders, item fulfillments, invoices, items and inventory between Shopify and Netsuite. Provide documentation and instruction for clients and partners.",https://www.cablebullet.com/,,JJPK
-Microbac,,Integrations Lead,"Design, implement, support the conversion of previously developed processes into manual batch jobs for emergencies. Integrates Accounts, Contacts and Opportunities between SalesForce, proprietary systems, and Navision.",https://www.microbac.com/,,JJPK
-"Sourcing Solutions, Inc.",,EDI Integrations Lead,"Design, implement, support net new processes for synchronizing sales orders, item fulfillments, invoices, items and inventory between trading partners and Netsuite. Communications with 18 partner companies for testing, go live, lifecycle services and ongoing development. Mentor new team members as juniors, delegating tasks. 
-",,,BHS
-RHD Tire,,EDI Integrations Lead,"Implement EDI processes surrounding sales and items (850, 860, 810, etc) between NetSuite and 6-10 trading partners",,,BHS
-RHD Tire,,Integration Developer,Implement sales and item processes between NetSuite and partners.,,,BHS
+Cable Bullet,,Integrations Lead,"
+- **Engineered a full refactor of NetSuite-Shopify `REST` integrations to `GraphQL`, boosting middleware performance by 50%**
+- Automated sales and fulfillment processes, `enabling a 100% increase in sales load` by completely eliminating manual work.
+- Developed and maintained `real-time integrations` for Sales Orders, Inventory, Items, Invoices, and Customers, ensuring data integrity across complex system landscapes.
+- Managed `2 years of direct customer support`, rapidly resolving bugs and implementing `agile` feature enhancements.
+- Translated diverse customer requirements into technical specifications, `collaborating with cross-functional teams` to deliver impactful solutions.",https://www.cablebullet.com/,,JJPK
+Microbac,,Integrations Lead,"
+- **Led the update and optimization of critical integrations** between Salesforce and proprietary systems for Contacts, Accounts, and Opportunities.
+- Ensured seamless and accurate data flow, supporting sales and operational efficiency across the organization.
+- Managed complex data mapping and transformation processes to meet evolving business requirements.",https://www.microbac.com/,,JJPK
+"Sourcing Solutions, Inc.",,EDI Integrations Lead,"- **Architected and delivered over `100 independent integrations`** for **`18 net new trading partners`**, facilitating seamless data exchange between NetSuite and disparate systems.
+- **Engineered solutions with a strong emphasis on `decoupling and code reusability`**, significantly enhancing the `manageability and testability` of complex integration flows.
+- Managed the `largest integration implementation` for our small-to-medium business consulting group, ensuring robust data synchronization for sales orders, inventory, invoices, and item fulfillments.
+- `Coordinated daily with 18 distinct trading partners` to ensure integration readiness, smooth go-lives, and ongoing operational excellence.",,,BHS
+RHD Tire,,"Integration Lead, Integration Developer","- **Spearheaded automation initiatives that transformed core logistics**, including a **`web application development`** that **cut driver drop-off time by 50%** and **completely eliminated manual route handling**.
+- **Directed comprehensive `EDI implementations`** with leading tire manufacturers, establishing robust inbound and outbound data flows `(810, 850, 855, 856, 997)` vital for supply chain operations.
+- **Developed and maintained `real-time inventory synchronization systems`** enabling instant data visibility for thousands of dealers, directly impacting customer experience and sales readiness.
+- Managed complex integration projects for `National Accounts`, ensuring accurate and timely exchange of diverse financial and operational documents.
+- Gained extensive hands-on experience with **`Boomi, RESTful APIs, SOAP, XML, JSON`**, and various secure file transfer protocols in `high-volume production environments`.",,,BHS
+,,,,,,

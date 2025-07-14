@@ -20,11 +20,9 @@ def professional_tab():
             col2.markdown(f"{row["description"]}")
             for proj_index, proj_row in pandas.read_csv("prof_proj.csv").iterrows():
                 if proj_row["company_code"] == row["company_code"]:
-                    col2.markdown(f"""
-                    ### [{proj_row["company"]}]({proj_row["url"]})
-                    ###### *`>>> {proj_row["role"]}`*\n
-                    {proj_row["description"]}
-                    """)
+                    col2.markdown(f"### Client: [{proj_row["company"]}]({proj_row["url"]})")
+                    col2.markdown(f"###### *`>>> {proj_row["role"]}`*")
+                    col2.markdown(f"{proj_row["description"]}")
         st.divider()
 
 def personal_tab():

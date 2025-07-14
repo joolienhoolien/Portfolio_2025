@@ -9,7 +9,7 @@ def summary():
 
     with col2:
         st.markdown("# Julien Pecquet")
-        st.markdown("##### `>>> Data Integrator -> Software Engineer`")
+        st.markdown("#### `>>> Integrations Lead -> Software Engineer`")
     content = """
     I am a skilled and motivated Software Engineer with a strong foundation in Computer Science and *`5 years of professional experience`*
     in building elegant and effective multi-platform solutions. My expertise spans a variety of technologies, including \

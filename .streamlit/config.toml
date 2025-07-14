@@ -22,5 +22,5 @@ font = "sans-serif"
 codeFont = "monospace"
 #dataframeBorderColor = "#FFFFFF"
 showWidgetBorder = true
-baseFontSize = 16
+baseFontSize = 15
 showSidebarBorder = true

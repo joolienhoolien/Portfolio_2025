@@ -19,10 +19,8 @@ from summary import summary
 st.set_page_config(page_title="Julien Pecquet Portfolio", layout="centered")
 
 #Page
-with open("style.css") as css:
-    st.markdown(f'<style>{css.read()}</style>', unsafe_allow_html=True)
-    menu()
+menu()
 
-    #Construct page
-    summary()
-    about_me()
+#Construct page
+summary()
+about_me()
