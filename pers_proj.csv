@@ -1,11 +1,12 @@
 title;description;url;image;complete
+Wave Function Collapse;Python program which turns a set of tiles into a novel image, visualizing each step, using the wave function collapse algorithm.;https://github.com/joolienhoolien/Wave_Function_Collapse;circles_wfc_yo_yo.gif;True
 Web Forum (Django);A website built using Django, html, css, javascript and python. Write messages, login using authentication services and sign up.;https://github.com/joolienhoolien/Web-Forum;forum_photo.jpg;True
 HTTP Server (Python);Custom HTTP Server with GET and POST using vanilla python;https://github.com/joolienhoolien/HTTP_Server;http_server_img.png;True
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/joolienhoolien/Portfolio_2025;2.png;True
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/joolienhoolien/PDF_Notes_Template;3.png;True
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/joolienhoolien/PDF_Invoices;4.png;True
-Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://pythonhow.com;5.png;False
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/joolienhoolien/Weather_API;6.png;False
+Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://pythonhow.com;5.png;False
 Download Cleaner;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;https://pythonhow.com;7.png;False
 Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://pythonhow.com;8.png;False
 Helper Chatbot;A chatbot that knows about a specific topic and answers questions regarding that topic.;https://pythonhow.com;9.png;False
