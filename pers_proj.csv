@@ -1,5 +1,5 @@
 title;description;url;image;complete
-Wave Function Collapse;Python program which turns a set of tiles into a novel image, visualizing each step, using the wave function collapse algorithm.;https://github.com/joolienhoolien/Wave_Function_Collapse;circles_wfc_yo_yo.gif;True
+Wave Function Collapse;Python program which turns a set of tiles into a novel image, visualizing each step, using the wave function collapse algorithm.;https://github.com/joolienhoolien/Wave_Function_Collapse;WFC_Circles_1.png;True
 Web Forum (Django);A website built using Django, html, css, javascript and python. Write messages, login using authentication services and sign up.;https://github.com/joolienhoolien/Web-Forum;forum_photo.jpg;True
 HTTP Server (Python);Custom HTTP Server with GET and POST using vanilla python;https://github.com/joolienhoolien/HTTP_Server;http_server_img.png;True
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/joolienhoolien/Portfolio_2025;2.png;True
